@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity 0.8.30;
 
 import {Test, console} from "forge-std/Test.sol";
-import {ERC20TokenWithGodMode} from "../../src/TokenWithGodMode/ERC20TokenWithGodMode.sol";
+import {ERC20TokenWithGodMode} from "../../../src/week1/TokenWithGodMode/ERC20TokenWithGodMode.sol";
 
 contract ERC20TokenWithGodModeTest is Test {
 

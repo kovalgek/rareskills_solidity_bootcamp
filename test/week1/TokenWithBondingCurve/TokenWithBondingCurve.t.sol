@@ -2,7 +2,7 @@
 pragma solidity 0.8.30;
 
 import {Test, console} from "forge-std/Test.sol";
-import {TokenWithBondingCurve} from "../../src/TokenWithBondingCurve/TokenWithBondingCurve.sol";
+import {TokenWithBondingCurve} from "../../../src/week1/TokenWithBondingCurve/TokenWithBondingCurve.sol";
 
 contract TokenWithBondingCurveTest is Test {
 

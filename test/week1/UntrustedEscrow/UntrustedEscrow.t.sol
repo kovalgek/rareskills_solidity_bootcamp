@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity 0.8.30;
 
 import {Test, console} from "forge-std/Test.sol";
-import {UntrustedEscrow} from "../../src/UntrustedEscrow/UntrustedEscrow.sol";
-import {ERC20Mock} from "../../src/UntrustedEscrow/ERC20Mock.sol";
+import {UntrustedEscrow} from "../../../src/week1/UntrustedEscrow/UntrustedEscrow.sol";
+import {ERC20Mock} from "../../../src/week1/UntrustedEscrow/ERC20Mock.sol";
 
 contract UntrustedEscrowTest is Test {
     UntrustedEscrow public untrustedEscrow;
